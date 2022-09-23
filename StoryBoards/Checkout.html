@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkout</title>
+    <link rel="stylesheet" type="text/css" href="css/style-sheet.css">
+  </head>
+  <body>
+    <div id="page">
+      <div>
+        <ul id="navigation">
+          <li>
+            <a class="menuitem" href="Homepage.html">Homepage</a>
+          </li>
+          <li>
+            <a class="menuitem" href="SearchProduct.html">Search Product</a>
+          </li>
+          <li>
+            <a class="menuitem" href="">My Profile</a>
+          </li>
+          <li>
+            <a class="menuitem" href="Checkout.html">Checkout</a>
+          </li>
+        </ul>
+        <div>
+          <center>
+            <img src="images/logoYoCerco.jpeg" width="750px" height="70px" alt="YoCerco" />
+          </center>
+        </div>
+      </div>
+      <table style="height: 427px;" width="642">
+        <tbody>
+          <tr>
+            <td style="width: 313px;">
+              <table style="height: 294px;" width="307">
+                <tbody>
+                  <tr class="tabledescription">
+                    <td style="width: 94.9844px;">Product</td>
+                    <td style="width: 94.9844px;">Quantity</td>
+                    <td style="width: 95.0312px;">Price</td>
+                  </tr>
+                  <tr>
+                    <td style="width: 94.9844px;">p1</td>
+                    <td style="width: 94.9844px;">1</td>
+                    <td style="width: 95.0312px;">3.99</td>
+                  </tr>
+                  <tr>
+                    <td style="width: 94.9844px;">p2</td>
+                    <td style="width: 94.9844px;">5</td>
+                    <td style="width: 95.0312px;">10.50</td>
+                  </tr>
+                  <tr>
+                    <td style="width: 94.9844px;">p3</td>
+                    <td style="width: 94.9844px;">6</td>
+                    <td style="width: 95.0312px;">6.00</td>
+                  </tr>
+                  <tr>
+                    <td style="width: 94.9844px;">p4</td>
+                    <td style="width: 94.9844px;">2</td>
+                    <td style="width: 95.0312px;">1.98</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>Total quantity: 14 <br />Total price: 22.47 </p>
+            </td>
+            <td style="width: 313px;">
+              <table style="height: 102px;" width="277">
+                <tbody>
+                  <tr class="tabledescription">
+                    <td style="width: 267px;">My personal data</td>
+                  </tr>
+                  <tr>
+                    <td style="width: 267px;">
+                      <input placeholder="Name" type="text" id="name" name="name" required minlength="4" maxlength="50" size="100">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 267px;">
+                      <input placeholder="Surname" type="text" id="surname" name="surname" required minlength="4" maxlength="50" size="100">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 267px;">
+                      <input placeholder="Billing address" type="text" id="billingAddress" name="billingAddress" required minlength="4" maxlength="50" size="100">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <button type="button" class="buttontype2" onclick="alert('Paid')">PayNow</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
